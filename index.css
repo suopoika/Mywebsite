@@ -77,25 +77,28 @@ p{
     margin-top: 20px;
     
 }
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    color: white;
-    text-decoration: none;
-    font-family: 'Lobster', cursive;
-    width: 100%;
-    height: 30px;
-    margin-top: 300px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-top: 5px;
-    padding-bottom: 20px;
-   
-}
+footer {
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        color: white;
+        font-family: 'Lobster', cursive;
+        width: 100%;
+        height: 30px; /* Pidennä korkeutta tarvittaessa */
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 5px;
+        padding-bottom: 5px; /* Pienennä alapuolen tyhjää tilaa */
+        border-top: 1px solid white; /* Lisää hieno yläraja */
+        z-index: 999; /* Varmista, että se on muiden sisältöjen päällä */
+      }
+      
+  }
+  
 .hidden{
     display: none;
 }
@@ -144,7 +147,9 @@ footer{
     margin: 5px;
 }
 
-
+html{
+    zoom: 90%;
+}
 
 
 
@@ -153,20 +158,31 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
-    .buttons-container{
+    .buttons-container {
         flex-direction: column;
         gap: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-   .game-container{
-       margin-top: 100px;
-   }
-   .weather-container{
-    
-    margin-top: 100px;
-    align-items: center;
-   }
+    .game-container {
+        margin-top: 100px;
+    }
+    .weather-container {
+        margin-top: 100px;
+        align-items: center;
+    }
+    html {
+        zoom: 75%;
+    }
+    .game-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 
+@media screen and (min-width: 2001px) {
+    html {
+        zoom: 125%;
+    }
 }
