@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fuel.css">
+    <title>Fuel Consumption Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Fuel Consumption Calculator</h2>
+        <p>This program calculates your fuel consumption and the cost of a journey.</p>
+        <p>Decimal separator is dot (.)</p>
+        <br>
+
+        <div class="input-box">
+            <input type="text" id="kilometers" placeholder="Enter Kilometers" />
+            <input type="text" id="price" placeholder="Price of Gasoline/l" />
+            <input type="text" id="consumption" placeholder="Fuel Consumption/100km" />
+            <input type="text" id="cost" placeholder="Cost of the trip" readonly>
+            <button onclick="countCosts()" class="btn">Calculate</button>
+        </div>
+    </div>
+
+    <script src="fuel.js"></script>
+</body>
+</html>

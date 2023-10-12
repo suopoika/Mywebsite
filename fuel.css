@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    height: 100vh;
+    background: linear-gradient(5deg, black, whitesmoke);
+    padding-top: 50px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#kilometers{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#price{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#consumption{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#cost{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: #fff;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+@media screen {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 10px;
+    }
+    .buttons-container{
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    
+}
