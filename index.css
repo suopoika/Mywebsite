@@ -153,7 +153,7 @@ html{
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     .container {
         flex-direction: column;
         gap: 10px;
@@ -178,6 +178,14 @@ html{
     .game-container {
         margin-left: 20px;
         margin-right: 20px;
+    }
+    #start-button{
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
+    }
+    .buttons{
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
     }
 }
 
